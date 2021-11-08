@@ -1,0 +1,131 @@
+        * {
+            margin: 0px;
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+        /*INICIO*/
+        
+        header {
+            background-image: url(../media/img/wallpapernav.jpg);
+            background-repeat: no-repeat;
+        }
+        
+        .indexSection {
+            height: 100%;
+            width: 100%;
+            justify-content: center;
+            display: flex;
+        }
+        
+        .imagenLogo {
+            height: 250px;
+        }
+        
+        img.imgRecuadros {
+            display: flex;
+        }
+        
+        img.logoUbicacion {
+            padding: 50px 20px;
+        }
+        
+        li {
+            list-style: none;
+            padding: 0px;
+        }
+        
+        ul {
+            padding: 0px;
+        }
+        
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
+        
+        h1 {
+            color: #FF0000;
+            font-size: 40px;
+            padding: 20px 0px;
+            font-family: 'Dosis', sans-serif;
+        }
+        
+        h3 {
+            color: #990B0B;
+            padding: 5px;
+        }
+        
+        .footerUpDias {
+            padding: 0px;
+        }
+        
+        .footerNav {
+            padding: 0px;
+        }
+        
+        .footerDown {
+            display: flex;
+            height: 30px;
+            align-items: center;
+            background-color: black;
+            color: white;
+            justify-content: center;
+        }
+        /* FORMULARIO */
+        
+        .divFormulario {
+            padding: 10px 0px;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .contactoSection {
+            display: flex;
+            width: 100%;
+            height: 100%;
+            justify-content: center;
+        }
+        
+        input.inputDimension {
+            height: 30px;
+            width: 270px;
+            margin: 10px 0px;
+        }
+        
+        input.inputDimension6 {
+            height: 30px;
+            width: 127px;
+            margin: 0px 5px 0px 0px;
+        }
+        
+        select.inputDimension {
+            height: 30px;
+            width: 270px;
+        }
+        
+        textarea.inputDimension {
+            height: 100px;
+            width: 270px;
+            margin: 10px 0px 0px 0px;
+        }
+        
+        .sexoForm,
+        .checkBox {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        
+        .inputEnviar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        input.submitEr {
+            height: 50px;
+            width: 100px;
+            background-color: rgba(233, 204, 209, 0.199);
+            border: solid 1px;
+            font-size: 16px;
+            margin: 1px;
+        }

@@ -1,0 +1,98 @@
+/* Esto es un coment */
+
+@import"estilo";
+$valor1: #e57979a3;
+$valor2: #000000d4;
+$valor3: body;
+$valor4: menunav__ul;
+.menunav__ul {
+    @if $valor4==menunav__ul {
+        background-color: $valor1;
+    }
+}
+
+.recuadro__b--border {
+    @extend .recuadro__b;
+    border-radius: 10px;
+}
+
+$colores:( Recuadro1: #ffc1d9, Recuadro2: #ff86a9, Recuadro3: #c2567d);
+@each $fondos,
+$back in $colores {
+    .btn-#{$fondos} {
+        background: $back;
+    }
+}
+
+.menunav {
+    background-color: rgba(0, 0, 0, 0.082);
+    color: #fff;
+}
+
+.menunav__ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    box-shadow: 0px -4px 14px -2px #000000d4;
+    height: 30px;
+    text-align: center;
+    word-spacing: 50px;
+}
+
+.menunav--li {
+    list-style: none;
+    padding: 5
+}
+
+.menunav--a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.iniciotexto {
+    text-align: center;
+}
+
+.iniciotexto--p {
+    color: #5F0808;
+    padding: 5px;
+}
+
+.recuadro {
+    align-content: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0px;
+}
+
+.recuadro__a {
+    float: left;
+    position: static;
+}
+
+.recuadro__b {
+    margin: 0px;
+    border: solid 1px;
+    width: 198px;
+    height: 308px;
+    text-align: justify;
+}
+
+.footercontenedor {
+    background-color: #474747;
+    color: #fff;
+    border-radius: 10px 0px 0px 0px;
+    display: flex;
+    padding: 5px;
+}
+
+.footercontenedor__upmenu {
+    padding: 0px 300px 0px 60px;
+}
+
+.footercontenedor__uptexto {
+    padding: 10px 0px 20px 0px;
+}
